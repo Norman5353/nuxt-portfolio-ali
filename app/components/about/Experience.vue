@@ -24,6 +24,11 @@ import experiences from '~/data/about'
             {{ experience.company }}
           </p>
         </div>
+        <!-- <div class="flex gap-1 text-muted">
+          <p>
+            {{ experience.description }}
+          </p>
+        </div> -->
       </div>
     </div>
   </div>

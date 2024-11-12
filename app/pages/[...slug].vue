@@ -28,12 +28,12 @@ useSeoMeta({
   ogDescription: () => t('global.app_description'),
   ogUrl: () => runtimeConfig.public.siteUrl,
   ogLocale: () => locale.value,
-  twitterTitle: appConfig.appName,
-  twitterDescription: () => t('global.app_description'),
-  twitterCard: 'summary_large_image',
-  twitterSite: appConfig.twitterUsername,
-  twitterCreator: appConfig.twitterUsername,
-  twitterImage: 'https://canvas.hrcd.fr/social-preview.jpg',
+  // twitterTitle: appConfig.appName,
+  // twitterDescription: () => t('global.app_description'),
+  // twitterCard: 'summary_large_image',
+  // twitterSite: appConfig.twitterUsername,
+  // twitterCreator: appConfig.twitterUsername,
+  // twitterImage: 'https://canvas.hrcd.fr/social-preview.jpg',
 })
 
 const { copy } = useClipboard({

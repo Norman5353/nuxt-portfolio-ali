@@ -1,0 +1,26 @@
+{
+  "items": [
+
+    {
+      "name": "Cron",
+      "link": "https://calendar.cron.com/",
+      "logo": "SvgoCronColor"
+    },
+    {
+      "name": "Spark",
+      "link": "https://sparkmailapp.com/",
+      "logo": "SvgoSparkColor"
+    },
+    {
+      "name": "1Password",
+      "link": "https://1password.com/",
+      "logo": "SvgoOnepasswordColor"
+    },
+    {
+      "name": "Fig",
+      "link": "https://fig.io/",
+      "logo": "SvgoFigColor"
+    },
+
+  ]
+}

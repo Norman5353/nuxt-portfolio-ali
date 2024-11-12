@@ -11,9 +11,26 @@
       "logo": "SvgoVueColor"
     },
     {
-      "name": "Nest",
-      "link": "https://nestjs.com/",
-      "logo": "SvgoNestColor"
+      "name": "JavaScript",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "logo": "SvgoJavascriptColor"
+    },
+    {
+      "name": "TypeScript",
+      "link": "https://www.typescriptlang.org/",
+      "logo": "SvgoTypescriptColor"
+    },
+    {
+      "name": "Vuetify",
+      "link": "https://vuetify.com/",
+      "logo": "SvgoVuetifyColor"
+    },
+
+
+    {
+      "name": "Vueuse",
+      "link": "https://vueuse.org/guide/",
+      "logo": "SvgoVueuseColor"
     },
     {
       "name": "TailwindCSS",
@@ -21,9 +38,24 @@
       "logo": "SvgoTailwindColor"
     },
     {
-      "name": "Prisma",
-      "link": "https://www.prisma.io/",
-      "logo": "SvgoPrismaColor"
+      "name": "Sass",
+      "link": "https://sass-lang.com/",
+      "logo": "SvgoSassColor"
+    },
+    {
+      "name": "GitHub",
+      "link": "https://github.com/",
+      "logo": "SvgoGithubColor"
+    },
+    {
+      "name": "Github Actions",
+      "link": "https://github.com/features/actions",
+      "logo": "SvgoActionsColor"
+    },
+    {
+      "name": "Axios",
+      "link": "https://axios.com/",
+      "logo": "SvgoAxiosColor"
     },
     {
       "name": "Vercel",
@@ -31,65 +63,73 @@
       "logo": "SvgoVercel"
     },
     {
-      "name": "Linear",
-      "link": "https://linear.app/",
-      "logo": "SvgoLinearColor"
-    },
-    {
-      "name": "Arc",
-      "link": "https://arc.net/",
-      "logo": "SvgoArcColor"
-    },
-    {
-      "name": "Raycast",
-      "link": "https://raycast.com/",
-      "logo": "SvgoRaycastColor"
-    },
-    {
-      "name": "Notion",
-      "link": "https://www.notion.so/",
-      "logo": "SvgoNotionColor"
-    },
-    {
-      "name": "Cron",
-      "link": "https://calendar.cron.com/",
-      "logo": "SvgoCronColor"
-    },
-    {
-      "name": "Spark",
-      "link": "https://sparkmailapp.com/",
-      "logo": "SvgoSparkColor"
-    },
-    {
-      "name": "1Password",
-      "link": "https://1password.com/",
-      "logo": "SvgoOnepasswordColor"
-    },
-    {
-      "name": "Fig",
-      "link": "https://fig.io/",
-      "logo": "SvgoFigColor"
-    },
-    {
       "name": "Figma",
       "link": "https://www.figma.com/",
       "logo": "SvgoFigmaColor"
     },
     {
-      "name": "Photoshop",
-      "link": "https://www.adobe.com/products/photoshop.html",
-      "logo": "SvgoPhotoshopColor"
+      "name": "Vite",
+      "link": "https://vitejs.dev/",
+      "logo": "SvgoViteColor"
     },
     {
-      "name": "Illustrator",
-      "link": "https://www.adobe.com/products/illustrator.html",
-      "logo": "SvgoIllustratorColor"
+      "name": "Bootstrap",
+      "link": "https://getbootstrap.com/",
+      "logo": "SvgoBootstrapColor"
     },
     {
-      "name": "Lightroom",
-      "link": "https://www.adobe.com/products/photoshop-lightroom.html",
-      "logo": "SvgoLightroomColor"
+      "name": "Less",
+      "link": "https://lesscss.org/",
+      "logo": "SvgoLessColor"
+    },
+    {
+      "name": "Python",
+      "link": "https://www.python.org/",
+      "logo": "SvgoPythonColor"
+    },
+    {
+      "name": "Microsoft Office",
+      "link": "https://www.office.com/",
+      "logo": "SvgoOfficeColor"
+    },
+
+    {
+      "name": "HTML",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "logo": "SvgoHtmlColor"
+    },
+    {
+      "name": "CSS",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "logo": "SvgoCssColor"
+    },
+    {
+      "name": "Google Docs",
+      "link": "https://www.google.com/docs/about/",
+      "logo": "SvgoDocsColor"
+    },
+    {
+      "name": "Microsoft Excel",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/excel",
+      "logo": "SvgoExcelColor"
+    },
+
+
+
+    {
+      "name": "Visual Studio Code",
+      "link": "https://code.visualstudio.com/",
+      "logo": "SvgoVscodeColor"
+    },
+    {
+      "name": "PWA",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+      "logo": "SvgoPwaColor"
+    },
+    {
+      "name": "GitLab",
+      "link": "https://gitlab.com/",
+      "logo": "SvgoGitlabColor"
     }
-   
   ]
 }

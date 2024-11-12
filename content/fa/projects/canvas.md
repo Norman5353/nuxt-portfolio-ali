@@ -1,7 +1,7 @@
 ---
-name: کانواس
-release: 2023
-image: /projects/canvas.webp
-link: https://canvas.hrcd.fr/
+name: باغچه
+release: 2024
+image: /projects/garden.png
+link: https://garden.liara.run/
 layout: project
 ---

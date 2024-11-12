@@ -1,4 +1,5 @@
 @import "themes/dark.css";
+@import "themes/light.css";
 @import "animation.css";
 
 @tailwind base;

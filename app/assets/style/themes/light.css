@@ -1,0 +1,16 @@
+html.light {
+  --bg-main: #fafafa;
+  --bg-main-opacity: 255, 255, 255;
+  --bg-secondary: #f7f7f7;
+  --bg-card: #f5f5f5;
+  --bg-card-hover: #ebebeb;
+
+  --font-primary: #1e1e1e;
+  --font-muted: #606060;
+  --font-inverted: #fafafa;
+
+  --border-primary: #dcdcdc;
+  --border-primary-hover: #c8c8c8;
+  --border-muted: #e0e0e0;
+  --font-placeholder: #a0a0a0;
+}

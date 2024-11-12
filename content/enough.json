@@ -1,0 +1,26 @@
+{
+  "items": [
+
+    {
+      "name": "Notion",
+      "link": "https://www.notion.so/",
+      "logo": "SvgoNotionColor"
+    },
+    {
+      "name": "Photoshop",
+      "link": "https://www.adobe.com/products/photoshop.html",
+      "logo": "SvgoPhotoshopColor"
+    },
+    {
+      "name": "Illustrator",
+      "link": "https://www.adobe.com/products/illustrator.html",
+      "logo": "SvgoIllustratorColor"
+    },
+    {
+      "name": "Lightroom",
+      "link": "https://www.adobe.com/products/photoshop-lightroom.html",
+      "logo": "SvgoLightroomColor"
+    }
+
+  ]
+}

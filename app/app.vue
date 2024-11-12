@@ -41,10 +41,6 @@ useSeoMeta({
   ogSiteName: 'Ali Arghyani Portfolio',
   ogUrl: () => runtimeConfig.public.siteUrl,
   ogLocale: () => locale.value,
-  twitterTitle: appConfig.appName,
-  twitterCard: 'summary_large_image',
-  twitterSite: appConfig.twitterUsername,
-  twitterCreator: appConfig.twitterUsername,
 })
 </script>
 

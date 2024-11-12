@@ -10,9 +10,9 @@ export default defineEventHandler(async (event: H3Event) => {
     const body = (await readBody(event)) as ContactEmail
     const { email, subject, message, phone, fullName } = body
     return await resend.emails.send({
-      from: 'HR Folio <contact@hrcd.fr>',
-      to: ['contact@hrcd.fr'],
-      subject: 'Nouveau message de HR Folio',
+      from: 'HR Folio <aliarghyani@gmail.com>',
+      to: ['aliarghyani@gmail.com'],
+      subject: 'Test email from your porfolio website',
       html: `
       <p>Un nouveau message a été envoyé depuis le formulaire de contact de HR Folio.</p>
       <p>Voici les détails du message :</p>

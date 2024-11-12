@@ -1,7 +1,7 @@
 ---
-name: Nuxtlog
+name: Bamashin
 release: 2023
-image: /projects/nuxtlog.webp
-link: https://nuxtlog.hrcd.fr/
+image: /projects/bamashin.png
+link: https://bamashin.net/
 layout: project
 ---
