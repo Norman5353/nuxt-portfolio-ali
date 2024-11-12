@@ -8,11 +8,13 @@ export default defineAppConfig({
   phone: '(+98) 912 322 0694',
   openGraphImage: 'https://canvas.hrcd.fr/social-preview.jpg',
   socials: {
-    github: 'https://github.com/HugoRCD',
+    github: 'https://github.com/Norman5353',
     twitter: 'https://twitter.com/HugoRCD__',
     linkedin: 'https://www.linkedin.com/in/aliarghyani/',
-    instagram: 'https://www.instagram.com/hugo.rcd_',
-    spotify: 'https://open.spotify.com/user/yuvl0zpp3bpx4hne1ag7huten?si=df7ee2777c0c4fc4',
+    instagram: 'https://www.instagram.com/ali.arghyani/profilecard/?igsh=MTJhdjZzd2R1emMyMg==',
+    spotify: 'https://open.spotify.com/user/aliarghyani?si=SwORhzxlQXKsWfA70soPqg',
+    telegram: 'https://t.me/Ali_Argh',
+    whatsapp: 'https://wa.me/00989123220694',
   },
   ui: {
     primary: 'emerald',

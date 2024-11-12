@@ -95,7 +95,10 @@ export default defineNuxtConfig({
       redirectOn: 'root',
     },
     baseUrl: 'https://www.aliarghyani.ir/',
-    locales: ['en', 'fr', 'fa'],
+    locales: [
+      { code: 'en', dir: 'ltr' },
+      { code: 'fa', dir: 'rtl' },
+    ],
     defaultLocale: 'en',
     vueI18n: '~/i18n.config.ts',
   },
@@ -122,7 +125,7 @@ export default defineNuxtConfig({
     markdown: {
       anchorLinks: false,
     },
-    locales: ['en', 'fr', 'fa'],
+    locales: ['en', 'fa'],
     defaultLocale: 'en',
   },
 

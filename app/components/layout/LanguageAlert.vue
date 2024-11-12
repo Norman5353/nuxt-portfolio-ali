@@ -7,7 +7,7 @@ const { locale } = useI18n()
 const languages = usePreferredLanguages()
 
 const isLanguageDifferent = computed(() => {
-  const currentLocaleBrowser = languages.value[0].split('-')[0]
+  const currentLocaleBrowser = languages.value[0]?.split('-')[0]
   // if the first language in the array is different from the current locale or first language not contained the current locale
   return currentLocaleBrowser !== locale.value || !languages.value.includes(locale.value)
 })
