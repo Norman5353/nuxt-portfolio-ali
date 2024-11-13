@@ -1,24 +1,24 @@
 ---
-title: "You are not an impostor"
+title: "  تو یک ایمپاستر  نیستی"
 date: "11/01/2024"
-description: "In the theater of content creation, many backstage whisper a phrase tinged with doubt: 'I m not legitimate, others are so much better.' This melody of insecurity, often played over and over in the minds of emerging creators, is the first act of a much larger work: the conquest of one's own legitimacy."
-tags: ["Creation", "Productivity"]
+description: "در دنیای خلق محتوا، بسیاری در پشت صحنه زمزمه می‌کنند: 'من شایستگی ندارم، دیگران خیلی بهتر هستند.' این حس ناامنی که در ذهن بسیاری از خالقان تازه‌کار پخش می‌شود، آغازگر سفری به سوی پذیرش و تقویت اعتماد به نفس است."
+tags: ["خلق", "بهره‌وری"]
 image: "https://canvas.hrcd.fr/articles/trap-of-perfection.jpg"
 readingTime: "3"
 ---
 
 ![preview](/articles/trap-of-perfection.jpg)
 
-In the theater of content creation, there are many who, backstage, whisper a phrase tinged with doubt: "I'm not legitimate, others are so much better". This melody of insecurity, often played over and over in the minds of emerging creators, is the first act of a much larger work: the conquest of one's own legitimacy.
+در دنیای خلق محتوا، بسیاری در پشت صحنه با خود می‌گویند: "من شایستگی ندارم، دیگران خیلی بهترند." این حس ناامنی که در ذهن خالقان تازه‌کار پخش می‌شود، اولین قدم از سفری بزرگ‌تر است: سفری به سوی پذیرفتن و ساختن اعتماد به نفس.
 
-Imagine yourself standing at the edge of the stage, dazzled by the spotlight of self-judgment. Every creator goes through this. But instead of sinking into the shadows of self-deprecation, take a moment to listen to the whispers of the audience: the other creators. What you hear is not a cacophony of criticism, but a chorus of experiences and lessons.
+خودتان را تصور کنید، در لبه‌ی صحنه‌ای ایستاده‌اید و در معرض نور تند و خیره‌کننده‌ای هستید که شما را به خود قضاوتی سخت وامی‌دارد. این لحظه برای هر خالقی پیش می‌آید. اما به جای غرق شدن در تردیدها، لحظه‌ای گوش بسپارید به زمزمه‌های تماشاگران و خالقان دیگر. آنچه می‌شنوید صدای انتقاد نیست، بلکه همنوایی از تجربه‌ها و درس‌هاست.
 
-This is where the magic happens. Instead of seeing the stage as a place for competition, turn it into a space for learning. Let other people's successes inspire you, their mistakes teach you. This is not imitation, but a creative harmony where you can find your own rhythm, your own melody.
+اینجاست که جادو رخ می‌دهد. به جای دیدن صحنه به‌عنوان میدان رقابت، آن را فضایی برای یادگیری و رشد ببینید. بگذارید موفقیت‌های دیگران الهام‌بخش شما باشد و اشتباهاتشان درسی برای پیشرفت شما. این تقلید نیست، بلکه هم‌آوایی خلاقانه‌ای است که در آن می‌توانید ریتم و ملودی منحصر به فرد خودتان را پیدا کنید.
 
-Your authenticity is your most precious instrument. Play it with confidence. Every note of your experience, your perspective, resonates in a unique way with your audience. Authenticity is a creator's true opus, far more captivating than the exhausting quest for perfection.
+اصالت شما ارزشمندترین ابزار شماست. با اعتمادبه‌نفس آن را بنوازید. هر نت از تجربه و دیدگاه شما به شکلی یکتا و خاص با مخاطبانتان هم‌صدا می‌شود. اصالت، اثر ماندگار یک خالق است و به‌مراتب جذاب‌تر از خستگی ناشی از جستجوی کمال است.
 
-Remember, every creation is a rehearsal for the next. There's no grand finale where everything has to be perfect. It's a continuous concert, where each performance is better than the last.
+به یاد داشته باشید، هر آفرینش، تمرینی برای اثر بعدی است. هیچ‌گاه نیازی نیست همه‌چیز کامل باشد. این یک کنسرت همیشگی است که در هر اجرا نسبت به اجرای قبلی بهتر و زیباتر می‌شوید.
 
-And in this showroom, you're not alone. Backstage, you'll find plenty of mentors, peers and admirers. They're there to encourage you, to guide you, to applaud your successes and support you in your doubts. This community is your chorus of support, turning fearful solos into courageous duets.
+و در این مسیر، شما تنها نیستید. پشت صحنه، مربیان، همکاران و تحسین‌کنندگان بسیاری هستند که شما را تشویق، راهنمایی و حمایت می‌کنند. این جامعه‌ی حمایتی است که ترس‌های تنهایی را به همکاری و هم‌صدایی دلگرم‌کننده تبدیل می‌کند.
 
-In the end, every curtain raised, every light turned on, is a step closer to accepting your own talent. The feeling of imposture dissipates not when you compare yourself to others, but when you recognize the unique beauty of your own performance. In this room, success is measured not just by the applause at the end, but by the courage to get up on stage and say: "Here's my story, listen to it".
+در نهایت، هر بار که پرده بالا می‌رود و نوری روشن می‌شود، گامی به سوی پذیرش استعداد خودتان برمی‌دارید. حس خودکم‌بینی زمانی محو می‌شود که به جای مقایسه با دیگران، زیبایی منحصر به فرد اجرای خود را ببینید. در این مسیر، موفقیت تنها با تشویق‌های پایانی سنجیده نمی‌شود، بلکه با شهامت حضور روی صحنه و بیان این جمله: "این داستان من است، به آن گوش بسپارید."

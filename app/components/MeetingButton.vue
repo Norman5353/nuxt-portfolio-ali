@@ -1,5 +1,7 @@
+<!-- eslint-disable @stylistic/quotes -->
 <script setup lang="ts">
 const meetingLink = useRuntimeConfig().public.meetingLink
+console.log("🚀 ~ meetingLink:", meetingLink)
 </script>
 
 <template>

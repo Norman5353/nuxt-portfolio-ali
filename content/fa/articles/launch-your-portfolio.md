@@ -1,35 +1,35 @@
 ---
-title: "Finally launch your portfolio"
+title: "بالاخره نمونه کار خود را راه‌اندازی کنید"
 date: "20/10/2023"
-description: "Aiming for perfectionism is a very good state of mind. On the other hand, working until perfectionism is 100% can also be bad. Here are some tips to help you get your portfolio off the ground."
-tags: ["Portfolio", "Development", "Design", "Productivity"]
+description: "کمال‌گرایی می‌تواند یک حالت ذهنی عالی باشد، اما گاهی تلاش برای رسیدن به کمال صد درصد می‌تواند به ضرر شما هم باشد. در اینجا چند نکته برای کمک به شما در راه‌اندازی نمونه کارهایتان آورده شده است."
+tags: ["نمونه کار", "توسعه", "طراحی", "بهره‌وری"]
 image: "https://canvas.hrcd.fr/articles/launch-your-porfolio.jpg"
 readingTime: "5"
 ---
 
-## Introduction
+## مقدمه
 
-Creating a portfolio as a development, design or tech professional is a journey punctuated by complex choices. One of the most prevalent of these dilemmas lies in the delicate balance between striving for perfection and the need to launch quickly. Explore with me the nuances of these contradictory perspectives.
+ساختن یک نمونه کار به عنوان یک حرفه‌ای در زمینه توسعه، طراحی یا تکنولوژی، مسیری است که با انتخاب‌های پیچیده‌ای همراه است. یکی از چالش‌های رایج در این مسیر، پیدا کردن تعادلی بین تلاش برای رسیدن به کمال و نیاز به راه‌اندازی سریع است. در ادامه، به بررسی نکات ظریفی می‌پردازیم که در این دو دیدگاه متناقض وجود دارد.
 
 ![preview](/articles/launch-your-porfolio.jpg)
 
-### The aspiration to perfection: an unattainable ideal?
-The traditional vision of artistic creation encourages us to pursue perfection from the outset. Every line of code, every element of design should converge towards absolute excellence. However, this dream of perfection can sometimes become a burden, a brake on progress. The relentless quest for perfection can paralyze the creative process, turning creation into an endless pursuit.
+### تمایل به کمال: آرمانی دست‌نیافتنی؟
+دیدگاه سنتی در خلق آثار هنری ما را تشویق می‌کند که از ابتدا در پی کمال باشیم. هر خط کد، هر عنصر طراحی باید به سوی بهترین حالت خود پیش برود. با این حال، این رؤیای کمال گاهی می‌تواند به یک بار سنگین تبدیل شود و مانع از پیشرفت شود. جستجوی بی‌پایان کمال می‌تواند روند خلاقیت را متوقف کرده و تلاش برای خلق را به یک تعقیب بی‌پایان تبدیل کند.
 
-### The Perfectionism Trap: when the best becomes the enemy of the good
-Perfectionism can turn into a subtle trap. Waiting for every detail to be impeccable can delay your portfolio indefinitely. This prolonged stalling can have implications for professional credibility, as the market often demands a fast, dynamic online presence.
+### دام کمال‌گرایی: وقتی بهترین دشمن خوب می‌شود
+کمال‌گرایی می‌تواند به یک دام پنهان تبدیل شود. انتظار برای بی‌نقص بودن هر جزئیات ممکن است راه‌اندازی نمونه کار را به طور نامحدود به تعویق بیندازد. این تأخیر طولانی‌مدت می‌تواند اعتبار حرفه‌ای شما را تحت تأثیر قرار دهد، چرا که بازار غالباً به یک حضور آنلاین سریع و پویا نیاز دارد.
 
-### The bold proposal to launch quickly: iterate rather than perfect
-The idea of launching quickly, even if the portfolio doesn't reach an immediate level of perfection, offers an alternative perspective. It's about recognizing that each iteration can be an improvement on the previous one. This approach encourages a constant iteration mentality, where each version becomes a learning opportunity.
+### پیشنهاد جسورانه برای راه‌اندازی سریع: تکرار کردن به جای کمال
+ایده راه‌اندازی سریع، حتی اگر نمونه کار در ابتدا به سطح کمال نرسد، یک دیدگاه متفاوت را ارائه می‌دهد. این روش به این معناست که هر تکرار می‌تواند بهبود یافته‌ی نسخه قبلی باشد. این رویکرد، ذهنیتی برای بهبود مستمر را ترویج می‌دهد، جایی که هر نسخه فرصتی برای یادگیری و پیشرفت است.
 
-### Speed as a means of learning: create by doing
-Launching quickly thus becomes a means of learning. Speed doesn't mean compromising on quality, but rather accepting that perfection may initially be unattainable. It's an invitation to learn by doing, to use each version of the portfolio as a testing ground.
+### سرعت به عنوان وسیله‌ای برای یادگیری: خلق کردن از طریق عمل
+راه‌اندازی سریع، به نوعی به معنای یادگیری از طریق عمل است. سرعت به معنای فدا کردن کیفیت نیست، بلکه به معنای پذیرش این است که کمال ممکن است در ابتدا دست‌نیافتنی باشد. این روش، دعوتی است به یادگیری از طریق عمل و استفاده از هر نسخه نمونه کار به عنوان یک بستر آزمایشی.
 
-### The crucial importance of time: time efficiency and judicious management
-Time plays a crucial role in this debate. Time efficiency, underlined by the perspective of speed, becomes an essential skill. Judicious time management is the key to maintaining momentum without compromising quality. Consciously choosing where to invest one's time becomes a strategic act.
+### اهمیت حیاتی زمان: بهره‌وری از زمان و مدیریت دقیق آن
+زمان در این بحث نقشی حیاتی دارد. بهره‌وری از زمان که توسط دیدگاه سرعت تأیید می‌شود، به یک مهارت اساسی تبدیل می‌شود. مدیریت آگاهانه زمان کلید حفظ پیشرفت بدون به خطر انداختن کیفیت است. انتخاب آگاهانه‌ی محل سرمایه‌گذاری زمان، به یک تصمیم استراتژیک تبدیل می‌شود.
 
-### Total control vs. flexibility: navigating between the two extremes
-Total control of the creative process offers a sense of autonomy and empowerment. However, it is vital not to confuse control with rigidity. Being open to market developments and new trends is just as essential as personal control. It's a delicate balance between autonomy and adaptability.
+### کنترل کامل در برابر انعطاف‌پذیری: حرکت بین دو سر طیف
+کنترل کامل بر فرآیند خلاقیت، حس استقلال و توانمندی را به همراه دارد. اما مهم است که کنترل را با سفتی و انعطاف‌ناپذیری اشتباه نگیرید. باز بودن به روی تغییرات بازار و روندهای جدید به همان اندازه اهمیت دارد که کنترل شخصی. این تلاشی است برای ایجاد تعادل بین استقلال و انعطاف‌پذیری.
 
-### The delicate balance: a continuous journey of discovery and adaptation
-Ultimately, portfolio creation is an ongoing journey. It's navigating this paradox with intention. It's finding a balance between the quest for excellence and the need to move quickly, knowing that each iteration is a progression towards an improved version of yourself. To create a portfolio is to embrace the paradox, to consciously choose between perfection and speed, and to accept that the path to excellence is a journey rather than a destination.
+### تعادل ظریف: یک سفر مداوم از کشف و سازگاری
+در نهایت، ساختن یک نمونه کار یک سفر مداوم است. این سفری است که در آن باید این تناقض را با نیت‌مندی پیش برد. یافتن تعادل بین تلاش برای کمال و نیاز به حرکت سریع و پذیرفتن این که هر تکرار گامی به سوی نسخه بهتری از خودتان است. خلق نمونه کار به معنای پذیرفتن این پارادوکس، انتخاب آگاهانه بین کمال و سرعت، و پذیرش این است که مسیر به سوی کمال یک سفر است و نه مقصد.
