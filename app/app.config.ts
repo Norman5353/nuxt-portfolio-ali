@@ -6,7 +6,7 @@ export default defineAppConfig({
   email: 'aliarghyani@gmail.com',
   // twitterUsername: '@AliArghyani__',
   phone: '(+98) 912 322 0694',
-  openGraphImage: 'https://canvas.hrcd.fr/social-preview.jpg',
+  openGraphImage: 'https://canvas.hrcd.fr/social-preview.png',
   socials: {
     github: 'https://github.com/Norman5353',
     linkedin: 'https://www.linkedin.com/in/aliarghyani/',
