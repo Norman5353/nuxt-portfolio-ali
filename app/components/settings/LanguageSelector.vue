@@ -32,7 +32,8 @@ watch(locale, (newLocale) => {
 </script>
 
 <template>
-  <Menu as="div" class="relative inline-block text-left">
+  <Menu as="div"
+        class="relative inline-block text-left">
     <MenuButton
       as="button"
       class="inline-flex w-full justify-center gap-2 rounded-md border border-transparent px-4 py-2 text-sm font-medium text-inverted"
@@ -63,7 +64,9 @@ watch(locale, (newLocale) => {
         >
           <div class="flex items-center gap-2 text-inverted">
             <span class="text-xs font-semibold">{{ locales.find((l) => l.iso === item).flag }}</span>
-            <span v-if="isText" class="text-xs font-semibold">
+            <span
+              v-if="isText"
+              class="text-xs font-semibold">
               {{ locales.find((l) => l.iso === item).name }}
             </span>
           </div>

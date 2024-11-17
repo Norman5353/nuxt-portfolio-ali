@@ -39,18 +39,18 @@ const currentAvailability = computed(() => {
     <span class="relative flex size-3">
       <span
         class="absolute inline-flex size-full animate-ping rounded-full opacity-75"
-        :class="currentAvailability.color"
+        :class="currentAvailability?.color"
       />
       <span
         class="relative inline-flex size-3 scale-90 rounded-full"
-        :class="currentAvailability.bgColor"
+        :class="currentAvailability?.bgColor"
       />
     </span>
     <span
       class="ml-2 text-sm font-medium"
-      :class="currentAvailability.textColor"
+      :class="currentAvailability?.textColor"
     >
-      {{ $t("global." + currentAvailability.status) }}
+      {{ $t("global." + currentAvailability?.status) }}
     </span>
   </div>
 </template>
