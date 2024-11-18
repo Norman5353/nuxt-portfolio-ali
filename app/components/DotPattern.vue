@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useColorMode } from '@vueuse/core';
+import { useColorMode } from '@vueuse/core'
 
 defineProps({
   size: {
@@ -18,25 +18,26 @@ defineProps({
     type: Number,
     default: 0,
   },
-});
+})
 
-const colorMode = useColorMode();
+const colorMode = useColorMode()
 const patternFill = computed(() =>
-  colorMode.value === 'dark' ? 'rgba(255, 255, 255, 0.05)' : 'rgba(0, 0, 0, 0.05)'
-);
+  colorMode.value === 'dark' ? 'rgba(255, 255, 255, 0.1)' : 'rgba(0, 0, 0, 0.1)',
+)
 </script>
 
 <template>
-  <svg>
+  <svg
+    class="w-full h-full absolute inset-0"
+    xmlns="http://www.w3.org/2000/svg"
+    preserveAspectRatio="xMinYMin slice"
+  >
     <defs>
       <pattern
         id="dot-pattern"
         :width="size"
         :height="size"
         patternUnits="userSpaceOnUse"
-        patternContentUnits="userSpaceOnUse"
-        :x="offsetX"
-        :y="offsetY"
       >
         <circle
           :cx="size / 2"
@@ -46,11 +47,9 @@ const patternFill = computed(() =>
         />
       </pattern>
     </defs>
-
     <rect
       width="100%"
       height="100%"
-      stroke-width="0"
       fill="url(#dot-pattern)"
     />
   </svg>

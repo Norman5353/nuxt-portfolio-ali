@@ -1,17 +1,17 @@
 <script setup lang="ts">
-const appConfig = useAppConfig();
+const appConfig = useAppConfig()
 
 useHead({
   title: () => appConfig.appName,
   titleTemplate: () => appConfig.appName,
-});
+})
 
 defineOgImage({
   url: appConfig.openGraphImage,
   width: 1200,
   height: 630,
-  alt: "Home image",
-});
+  alt: 'Home image',
+})
 </script>
 
 <template>
@@ -61,10 +61,16 @@ defineOgImage({
         />
 
         <!-- social -->
-        <HomeSocial style="--stagger: 3" data-animate />
+        <HomeSocial
+          style="--stagger: 3"
+          data-animate
+        />
 
         <!-- cta -->
-        <HomeCTA style="--stagger: 4" data-animate />
+        <HomeCTA
+          style="--stagger: 4"
+          data-animate
+        />
 
         <div
           style="--stagger: 5"
@@ -77,7 +83,10 @@ defineOgImage({
 
         <Divider class="my-9" />
 
-        <HomeFaq style="--stagger: 6" data-animate />
+        <HomeFaq
+          style="--stagger: 6"
+          data-animate
+        />
       </div>
     </div>
   </section>
