@@ -10,6 +10,12 @@ const { footerName } = useAppConfig()
       <span class="text-center text-sm text-muted dark:text-white">
         © {{ new Date().getFullYear() }}, {{ footerName }} - {{ $t("global.all_rights_reserved") }}.
       </span>
+
+      <!-- social -->
+      <HomeSocial
+        style="--stagger: 3"
+        data-animate
+      />
     </footer>
   </div>
 </template>
