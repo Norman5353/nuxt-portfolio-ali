@@ -20,26 +20,26 @@ const items = computed(() => {
 const ui = {
   list: {
     base: 'gap-4',
-    background: 'bg-transparent dark:bg-transparent',
+    background: 'bg-transparent dark:bg-transparent', // Light: white, Dark: dark gray
     rounded: 'rounded-full',
     marker: {
       wrapper: 'absolute top-[4px] left-[4px] duration-200 ease-out focus:outline-none',
       base: 'w-full h-full',
-      background: 'bg-transparent',
+      background: 'bg-slate-500 dark:bg-slate-400', // Light: blue, Dark: lighter blue
       rounded: 'rounded-full',
-      shadow: 'no-shadow',
+      shadow: 'shadow-lg dark:shadow-none', // Shadow for light mode, none for dark mode
     },
     tab: {
-      base: 'relative inline-flex items-center justify-center flex-shrink-0 w-full focus:outline-none transition-colors duration-200 ease-out border-white/10 border-2',
-      background: 'hover:bg-zinc-900/80',
-      active: 'text-gray-900 dark:text-white', // Active tab text color for light/dark themes
-      inactive: 'text-gray-500 dark:text-gray-400', // Inactive tab text color for light/dark themes
+      base: 'relative inline-flex items-center justify-center flex-shrink-0 w-full focus:outline-none transition-colors duration-200 ease-out border-gray-300 dark:border-gray-600', // Light: gray border, Dark: darker gray border
+      background: 'hover:bg-gray-100 dark:hover:bg-gray-700', // Light: light gray hover, Dark: darker gray hover
+      active: 'text-gray-900 dark:text-gray-100', // Active: dark gray for light mode, light gray for dark mode
+      inactive: 'text-gray-500 dark:text-gray-400', // Inactive: gray tones for both themes
       height: '',
       padding: 'px-3 py-2',
       size: '',
       font: 'font-medium',
       rounded: 'rounded-full',
-      shadow: '',
+      shadow: 'shadow-lg dark:shadow-md', // Subtle shadow for light mode, none for dark mode
     },
   },
 }

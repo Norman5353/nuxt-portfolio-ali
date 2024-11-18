@@ -25,7 +25,7 @@ const { data: projects } = await useAsyncData('projects', () => queryContent('/p
         <span class="whitespace-nowrap text-muted dark:text-gray-300">
           {{ project.name }}
         </span>
-        <div class="mx-2 h-[0.1px] w-full bg-muted dark:bg-gray-700" />
+        <div class="mx-2 h-[0.1px] w-full bg-slate-700 dark:bg-gray-700" />
         <span class="whitespace-nowrap text-muted dark:text-gray-400">
           {{ project.release === "soon" ? $t("global.soon") + "..." : project.release }}
         </span>

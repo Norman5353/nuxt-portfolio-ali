@@ -10,7 +10,10 @@
       >
         <SpotlightButton>
           <NuxtLink
-            class="font-mona relative flex items-center justify-center gap-2 bg-gradient-to-b from-gray-800/25 to-gray-800 bg-clip-text text-lg font-medium text-transparent transition-all duration-200 dark:from-gray-200/25 dark:to-gray-200"
+            class="font-mona relative flex items-center justify-center gap-2
+            bg-gradient-to-b from-gray-800/25 to-gray-800 text-gray-300 bg-clip-text text-lg
+            font-medium text-transparent transition-all duration-200
+             dark:from-gray-200/25 dark:to-gray-200"
             to="/contact"
           >
             {{ $t("global.contact") }}
