@@ -1,6 +1,6 @@
 ---
 name: Garden APP
-release: 2024
+release: coming soon ...
 image: /projects/garden.png
 link: https://garden.liara.run/
 layout: project

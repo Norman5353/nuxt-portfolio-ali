@@ -12,7 +12,7 @@ const navigation = getNavigation('home') as Record<string, Navigation>
 </script>
 
 <template>
-  <div class="mx-auto my-2 flex w-full items-center justify-center">
+  <div class="mx-auto my-2 flex  items-center justify-center">
     <header class="rounded-full">
       <SpotlightButton
         rounded

@@ -34,7 +34,7 @@ const img = useImage()
       />
     </div>
     <div class="absolute bottom-0 flex w-full justify-center">
-      <div class="rounded-t-lg border-x border-t border-white/10 border-b-transparent px-4 py-[5px] shadow-md backdrop-blur-md sm:w-2/3">
+      <div class="rounded-t-lg border-x border-t bg-slate-900 border-white/10 border-b-transparent px-4 py-[5px] shadow-lg backdrop-blur-md sm:w-2/3">
         <div class="flex items-center justify-between gap-2">
           <div class="flex items-center gap-2">
             <component
@@ -55,11 +55,11 @@ const img = useImage()
             </div>
           </div>
           <div
-            class="flex items-center justify-center rounded-full border border-transparent p-1 shadow-md backdrop-blur-md transition-all duration-500 group-hover:-rotate-45 group-hover:border-white/10"
+            class="flex items-center justify-center rounded-full border border-white/10 p-1 shadow-md backdrop-blur-md transition-all duration-500 group-hover:-rotate-45 group-hover:border-white/10"
           >
             <UIcon
               name="i-heroicons-arrow-right"
-              class="size-3 text-white"
+              class="size-3 text-white "
             />
           </div>
         </div>

@@ -42,15 +42,26 @@ async function submitForm() {
   loading.value = false
 }
 
-defineOgImage({ url: appConfig.openGraphImage, width: 1200, height: 630, alt: 'Home image' })
+const callMyPhone = () => {
+  window.open(`tel:${appConfig.phone}`)
+}
+
+defineOgImage({
+  url: appConfig.openGraphImage,
+  width: 1200,
+  height: 630,
+  alt: 'Home image',
+})
 </script>
 
 <template>
   <section class="mx-auto mt-4 flex max-w-4xl flex-col p-7 sm:mt-20">
-    <h1 class="font-newsreader italic text-white-shadow text-center text-4xl dark:text-white">
+    <h1
+      class="font-newsreader italic text-white-shadow text-center text-4xl dark:text-white"
+    >
       <ContentSlot :use="$slots.title" />
     </h1>
-    <h2 class="text-center text-lg font-extralight italic text-muted">
+    <h2 class="text-center text-lg font-extralight italic text-muted  dark:text-white">
       <ContentSlot :use="$slots.subtitle" />
     </h2>
     <Divider class="mb-8 mt-2" />
@@ -94,9 +105,7 @@ defineOgImage({ url: appConfig.openGraphImage, width: 1200, height: 630, alt: 'H
         </UFormGroup>
 
         <!-- Phone -->
-        <UFormGroup
-          label="Phone"
-        >
+        <UFormGroup label="Phone">
           <UInput
             id="phone"
             v-model="phone"
@@ -152,9 +161,14 @@ defineOgImage({ url: appConfig.openGraphImage, width: 1200, height: 630, alt: 'H
         </div>
       </form>
       <Divider class="my-10" />
-      <div class="flex w-full flex-col items-center justify-between gap-4 sm:flex-row">
+      <div
+        class="flex w-full flex-col items-center justify-between gap-4 sm:flex-row"
+      >
         <div class="flex flex-col gap-3">
-          <dd class="flex items-center gap-3 text-gray-400">
+          <dd
+            class="flex items-center gap-3 text-gray-600 cursor-pointer dark:text-gray-200"
+            @click="callMyPhone"
+          >
             <UIcon
               name="heroicons-phone"
               class="size-6"
@@ -164,7 +178,7 @@ defineOgImage({ url: appConfig.openGraphImage, width: 1200, height: 630, alt: 'H
               {{ appConfig.phone }}
             </span>
           </dd>
-          <dd class="flex items-center gap-3 text-gray-400">
+          <dd class="flex items-center gap-3 text-gray-600 dark:text-gray-200">
             <UIcon
               name="heroicons-envelope"
               class="size-6"

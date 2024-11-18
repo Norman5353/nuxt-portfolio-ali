@@ -1,41 +1,41 @@
 <script setup lang="ts">
-import type { Article } from "~/types/Article";
+import type { Article } from '~/types/Article'
 
-const { locale } = useI18n();
+const { locale } = useI18n()
 
-const searchedTags = ref<string[]>([]);
-const searchedTitle = ref("");
-const showSearch = ref(false);
+const searchedTags = ref<string[]>([])
+const searchedTitle = ref('')
+const showSearch = ref(false)
 
 const { data } = await useAsyncData(
-  "articles",
+  'articles',
   () =>
-    queryContent("/articles").locale(locale.value).sort({ date: -1 }).find(),
-  { watch: [locale] }
-);
+    queryContent('/articles').locale(locale.value).sort({ date: -1 }).find(),
+  { watch: [locale] },
+)
 
-const articles = computed(() => data.value as Article[]);
+const articles = computed(() => data.value as Article[])
 const tags = computed(() =>
-  Array.from(new Set(articles.value.flatMap((article) => article.tags)))
-);
+  Array.from(new Set(articles.value.flatMap(article => article.tags))),
+)
 
 const filteredArticles = computed(() =>
   articles.value.filter(
-    (article) =>
-      (searchedTags.value.length === 0 ||
-        searchedTags.value.some((tag) => article.tags.includes(tag))) &&
-      (searchedTitle.value === "" ||
-        article
+    article =>
+      (searchedTags.value.length === 0
+        || searchedTags.value.some(tag => article.tags.includes(tag)))
+      && (searchedTitle.value === ''
+        || article
           .title!.toLowerCase()
-          .includes(searchedTitle.value.toLowerCase()))
-  )
-);
+          .includes(searchedTitle.value.toLowerCase())),
+  ),
+)
 
 const toggleTag = (tag: string) => {
   searchedTags.value = searchedTags.value.includes(tag)
-    ? searchedTags.value.filter((t) => t !== tag)
-    : [...searchedTags.value, tag];
-};
+    ? searchedTags.value.filter(t => t !== tag)
+    : [...searchedTags.value, tag]
+}
 </script>
 
 <template>
@@ -58,16 +58,24 @@ const toggleTag = (tag: string) => {
 
     <!-- Search Toggle -->
     <div :class="showSearch ? '' : 'mb-3'">
+
       <span
         class="font-newsreader italic cursor-pointer select-none text-lg text-gray-900 dark:text-gray-100"
         @click="showSearch = !showSearch"
       >
         {{ showSearch ? $t("writing.hide_search") : $t("writing.show_search") }}
       </span>
+      <UIcon
+          name="heroicons:question-mark-circle"
+          class="size-5 text-slate/50 dark:text-white/60 transition-all duration-300"
+          />
     </div>
 
     <!-- Search Inputs -->
-    <div v-if="showSearch" class="mb-4 flex flex-col gap-2">
+    <div
+      v-if="showSearch"
+      class="mb-4 flex flex-col gap-2"
+    >
       <div class="my-4">
         <UInput
           v-model="searchedTitle"
@@ -76,17 +84,22 @@ const toggleTag = (tag: string) => {
           :placeholder="$t('writing.search_article')"
         />
       </div>
-      <div v-if="tags.length > 0" class="mb-4 flex flex-wrap gap-2">
+      <div
+        v-if="tags.length > 0"
+        class="mb-4 flex flex-wrap gap-2"
+      >
         <div
           v-for="tag of tags"
           :key="tag"
           class="hover:text-shadow-md flex cursor-pointer select-none items-center rounded-md px-2 py-1 text-xs text-gray-800 dark:text-gray-100 bg-gray-200 dark:bg-gray-700 transition-colors duration-100 text-shadow-sm hover:bg-gray-300 dark:hover:bg-gray-600 sm:text-sm"
           :class="{
-            'bg-gray-300 dark:bg-gray-600': searchedTags.includes(tag),
+            'bg-red-300 dark:bg-red-600': searchedTags.includes(tag),
           }"
           @click="toggleTag(tag)"
         >
-          <div class="font-extralight">{{ tag }}</div>
+          <div class="font-extralight">
+            {{ tag }}
+          </div>
         </div>
       </div>
     </div>
@@ -98,7 +111,10 @@ const toggleTag = (tag: string) => {
       tag="ul"
       class="grid grid-cols-1 gap-4 sm:grid-cols-2"
     >
-      <li v-for="article of filteredArticles" :key="article._path">
+      <li
+        v-for="article of filteredArticles"
+        :key="article._path"
+      >
         <ArticleCard
           :title="article.title!"
           :date="article.date"
@@ -109,7 +125,10 @@ const toggleTag = (tag: string) => {
     </TransitionGroup>
 
     <!-- No Articles Found -->
-    <div v-else class="flex h-64 flex-col items-center justify-center gap-2">
+    <div
+      v-else
+      class="flex h-64 flex-col items-center justify-center gap-2"
+    >
       <span class="text-2xl text-gray-900 dark:text-gray-100">
         {{ $t("writing.not_found") }}
       </span>
