@@ -26,7 +26,7 @@ defineProps({
     />
     <span
       v-if="isText"
-      class="ml-1 text-xs font-semibold"
+      class="ml-1 text-xs font-semibold text-gray-700 dark:text-gray-300"
     >
       {{ appName }}
     </span>

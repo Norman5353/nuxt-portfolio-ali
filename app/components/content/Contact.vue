@@ -47,7 +47,7 @@ defineOgImage({ url: appConfig.openGraphImage, width: 1200, height: 630, alt: 'H
 
 <template>
   <section class="mx-auto mt-4 flex max-w-4xl flex-col p-7 sm:mt-20">
-    <h1 class="font-newsreader italic text-white-shadow text-center text-4xl">
+    <h1 class="font-newsreader italic text-white-shadow text-center text-4xl dark:text-white">
       <ContentSlot :use="$slots.title" />
     </h1>
     <h2 class="text-center text-lg font-extralight italic text-muted">

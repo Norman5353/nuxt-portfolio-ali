@@ -32,8 +32,8 @@ const ui = {
     tab: {
       base: 'relative inline-flex items-center justify-center flex-shrink-0 w-full focus:outline-none transition-colors duration-200 ease-out border-white/10 border-2',
       background: 'hover:bg-zinc-900/80',
-      active: 'text-gray-900 dark:text-white',
-      inactive: 'text-gray-500 dark:text-gray-400',
+      active: 'text-gray-900 dark:text-white', // Active tab text color for light/dark themes
+      inactive: 'text-gray-500 dark:text-gray-400', // Inactive tab text color for light/dark themes
       height: '',
       padding: 'px-3 py-2',
       size: '',
@@ -48,10 +48,12 @@ const ui = {
 <template>
   <div class="flex flex-col items-center justify-center space-y-8">
     <div class="flex flex-col items-center justify-center gap-2">
-      <h3 class="font-newsreader italic text-white-shadow text-4xl">
+      <!-- Updated for light/dark text color -->
+      <h3 class="font-newsreader italic text-white-shadow dark:text-white text-4xl">
         {{ faq!.title }}
       </h3>
-      <p class="text-center text-sm font-medium text-muted">
+      <!-- Updated for light/dark text color -->
+      <p class="text-center text-sm font-medium text-muted dark:text-gray-300">
         {{ faq!.subtitle }}
       </p>
     </div>

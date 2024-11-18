@@ -1,54 +1,68 @@
-<script setup lang="ts">
+<script setup>
+import { computed } from 'vue'
+import { useColorMode } from '@vueuse/core'
+
 const colorMode = useColorMode()
 
-const switchTheme = () => {
-  colorMode.value = colorMode.value === 'dark' ? 'light' : 'dark'
-  colorMode.preference = colorMode.value
+const themes = [
+  { code: 'dark', name: 'Dark' },
+  { code: 'light', name: 'Light' },
+]
+
+const currentTheme = computed(() => {
+  return themes.find(theme => theme.code === colorMode.value)
+})
+
+const switchTheme = (theme) => {
+  if (theme === colorMode.value) return
+  colorMode.value = theme
+  colorMode.preference = theme
+
+  // Persist the theme in localStorage
+  localStorage.setItem('theme', theme)
+
+  // Add the corresponding class to the html element
+  if (theme === 'dark') {
+    document.documentElement.classList.add('dark')
+    document.documentElement.classList.remove('light')
+  } else {
+    document.documentElement.classList.add('light')
+    document.documentElement.classList.remove('dark')
+  }
 }
 
-function startViewTransition(theme: string) {
-  if (theme === colorMode.value) return
-  if (!document.startViewTransition) {
-    switchTheme()
+function startViewTransition(theme) {
+  if (!document.startViewTransition || window.innerWidth < 768) {
+    switchTheme(theme)
     return
   }
-  if (window.innerWidth < 768) {
-    switchTheme()
-    return
-  }
-  document.startViewTransition(switchTheme)
+  document.startViewTransition(() => switchTheme(theme))
 }
 </script>
 
 <template>
-  <ClientOnly>
-    <div class="flex flex-row gap-2 text-secondary">
+  <div
+    class="z-99 flex items-center gap-3 rounded-lg border border-white/10 bg-zinc-900/90 px-3 py-1 backdrop-blur-xl"
+  >
+    <ClientOnly>
       <div
-        class="flex cursor-pointer items-center gap-2"
-        @click="startViewTransition('dark')"
+        v-for="theme in themes"
+        :key="theme.code"
+        class="cursor-pointer select-none"
+        @click="startViewTransition(theme.code)"
       >
-        <div
-          class="size-3 border-2 border-black dark:border-white"
-          :class="{ 'bg-black dark:bg-white': $colorMode.value === 'dark' }"
-        />
-        <span>Dark</span>
+        <span
+          class="font-semibold"
+          :class="theme.code === currentTheme.code ? 'text-white' : 'text-gray-500'"
+        >
+          {{ theme.name }}
+        </span>
       </div>
-      <span>|</span>
-      <div
-        class="flex cursor-pointer items-center gap-2"
-        @click="startViewTransition('light')"
-      >
-        <div
-          class="size-3 border-2 border-black dark:border-white"
-          :class="{ 'bg-black dark:bg-white': $colorMode.value === 'light' }"
-        />
-        <span>Light</span>
-      </div>
-    </div>
-    <template #fallback>
-      <div class="h-6" />
-    </template>
-  </ClientOnly>
+      <template #fallback>
+        <div class="h-2 w-5" />
+      </template>
+    </ClientOnly>
+  </div>
 </template>
 
 <style>
@@ -90,5 +104,4 @@ function startViewTransition(theme: string) {
     clip-path: polygon(130% 0, -30% 0, -15% 100%, 110% 115%);
   }
 }
-
 </style>

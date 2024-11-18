@@ -11,18 +11,24 @@ defineProps({
 
 <template>
   <div class="flex flex-col gap-3">
-    <h3 class="text-lg text-muted">
+    <!-- Section Title -->
+    <h3 class="text-lg text-gray-700 dark:text-gray-300">
       {{ $t("global.experiences") }}
     </h3>
-    <div class="flex flex-col gap-4 text-main">
+
+    <!-- Experiences Container -->
+    <div class="flex flex-col gap-4">
       <div
         v-for="experience in experiences"
         :key="experience.title"
       >
-        <h4 class="font-semibold text-main">
+        <!-- Experience Title -->
+        <h4 class="font-semibold text-gray-900 dark:text-gray-100">
           {{ experience.title }}
         </h4>
-        <div class="flex gap-1 text-muted">
+
+        <!-- Experience Details -->
+        <div class="flex gap-1 text-gray-600 dark:text-gray-400">
           <p>
             {{ experience.date }}
           </p>

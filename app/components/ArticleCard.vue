@@ -16,7 +16,7 @@ defineProps({
     type: String,
     required: true,
   },
-})
+});
 </script>
 
 <template>
@@ -25,7 +25,10 @@ defineProps({
     :aria-label="title"
     class="flex cursor-pointer flex-col gap-2"
   >
-    <div class="overflow-hidden rounded-md border border-white/10 shadow-md shadow-zinc-950/50 transition-colors duration-200 hover:border-white/20">
+    <!-- Image Wrapper -->
+    <div
+      class="overflow-hidden rounded-md border border-gray-200 dark:border-gray-700 shadow-md transition-colors duration-200 hover:border-gray-300 dark:hover:border-gray-600"
+    >
       <NuxtImg
         width="1536"
         :alt="`${title} article image`"
@@ -34,11 +37,13 @@ defineProps({
         :aria-label="`${title} article image`"
       />
     </div>
+
+    <!-- Article Details -->
     <div class="flex flex-col">
-      <h3 class="text-lg font-semibold">
+      <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100">
         {{ title }}
       </h3>
-      <span class="text-xs text-muted">{{ date }}</span>
+      <span class="text-xs text-gray-600 dark:text-gray-400">{{ date }}</span>
     </div>
   </NuxtLink>
 </template>

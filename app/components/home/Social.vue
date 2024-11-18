@@ -30,7 +30,7 @@ const mappedSocials = Object.values(socials).map((link) => {
     >
       <component
         :is="social.logo"
-        class="social-item size-6 text-muted transition-all duration-300 hover:text-main"
+        class="social-item size-6 text-muted dark:text-gray-300 transition-all duration-300 hover:text-main dark:hover:text-white"
         :font-controlled="false"
         :alt="social.name + ' logo'"
         :aria-label="social.name + ' logo'"

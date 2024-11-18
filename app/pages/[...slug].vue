@@ -1,8 +1,11 @@
 <script setup lang="ts">
 import { Toaster } from 'vue-sonner'
+import { useColorMode } from '@vueuse/core'
 
 const route = useRoute()
-const { data: page } = await useAsyncData(`${route.path}`, () => queryContent(route.path).findOne())
+const { data: page } = await useAsyncData(route.path, () =>
+  queryContent(route.path).findOne(),
+)
 
 if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found' })
@@ -28,12 +31,6 @@ useSeoMeta({
   ogDescription: () => t('global.app_description'),
   ogUrl: () => runtimeConfig.public.siteUrl,
   ogLocale: () => locale.value,
-  // twitterTitle: appConfig.appName,
-  // twitterDescription: () => t('global.app_description'),
-  // twitterCard: 'summary_large_image',
-  // twitterSite: appConfig.twitterUsername,
-  // twitterCreator: appConfig.twitterUsername,
-  // twitterImage: 'https://canvas.hrcd.fr/social-preview.png',
 })
 
 const { copy } = useClipboard({
@@ -49,13 +46,20 @@ defineShortcuts({
     },
   },
 })
+
+// Manage dark/light theme
+const colorMode = useColorMode()
 </script>
 
 <template>
   <div>
     <Html
       :lang="$i18n.locale"
-      class="bg-zinc-950 text-main font-geist transition-colors duration-300 selection:bg-white/60 selection:text-zinc-800"
+      class="transition-colors duration-300"
+      :class="{
+        'bg-zinc-950 text-main': colorMode === 'dark',
+        'bg-white text-zinc-800': colorMode === 'light',
+      }"
     >
       <Body>
         <LayoutScrollToTop />
@@ -70,7 +74,10 @@ defineShortcuts({
           </ContentQuery>
         </NuxtLayout>
         <Toaster close-button />
-        <DotPattern class="absolute inset-0 -z-10 size-full fill-white/5 [mask-image:radial-gradient(white,transparent_85%)]" />
+        <DotPattern
+          class="absolute inset-0 -z-10 size-full"
+          :fill="colorMode === 'dark' ? 'rgba(255, 255, 255, 0.05)' : 'rgba(0, 0, 0, 0.05)'"
+        />
       </Body>
     </Html>
   </div>

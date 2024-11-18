@@ -1,3 +1,4 @@
+// app.config.ts
 export default defineAppConfig({
   appName: 'Ali Arghyani Portfolio',
   appDescription: 'My portfolio built with Nuxt and Tailwind CSS. Made with ❤️ by AliArghyani',
@@ -17,6 +18,7 @@ export default defineAppConfig({
     instagram: 'https://www.instagram.com/ali.arghyani/profilecard/?igsh=MTJhdjZzd2R1emMyMg==',
   },
   ui: {
+    theme: 'dark',
     primary: 'emerald',
     gray: 'zinc',
     notifications: {

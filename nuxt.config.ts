@@ -35,7 +35,9 @@ export default defineNuxtConfig({
   },
 
   css: ['~/assets/style/main.css'],
-
+  build: {
+    transpile: ['@vueuse/core'],
+  },
   runtimeConfig: {
     public: {
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL,

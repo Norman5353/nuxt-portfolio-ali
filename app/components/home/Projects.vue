@@ -8,7 +8,8 @@ const { data: projects } = await useAsyncData('projects', () => queryContent('/p
 
 <template>
   <div class="flex w-full flex-col gap-6">
-    <h3 class="font-newsreader italic text-white-shadow text-xl">
+    <!-- Updated for light/dark text color -->
+    <h3 class="font-newsreader italic text-white-shadow dark:text-white text-xl">
       {{ $t("navigation.works") }}
     </h3>
     <div class="flex w-full flex-col gap-4">
@@ -21,17 +22,17 @@ const { data: projects } = await useAsyncData('projects', () => queryContent('/p
         :aria-label="'go to ' + project.name + ' project website'"
         :target="project.release === 'soon' ? '_self' : '_blank'"
       >
-        <span class="whitespace-nowrap">
+        <span class="whitespace-nowrap text-muted dark:text-gray-300">
           {{ project.name }}
         </span>
-        <div class="mx-2 h-[0.1px] w-full bg-muted" />
-        <span class="whitespace-nowrap text-muted">
+        <div class="mx-2 h-[0.1px] w-full bg-muted dark:bg-gray-700" />
+        <span class="whitespace-nowrap text-muted dark:text-gray-400">
           {{ project.release === "soon" ? $t("global.soon") + "..." : project.release }}
         </span>
       </NuxtLink>
     </div>
     <div @click="useRouter().push('/works')">
-      <span class="font-newsreader italic text-white-shadow cursor-pointer text-sm">
+      <span class="font-newsreader italic text-white-shadow dark:text-white cursor-pointer text-sm">
         {{ $t("global.see_more") }}
       </span>
     </div>

@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useColorMode } from '@vueuse/core';
+
 defineProps({
   size: {
     type: Number,
@@ -16,7 +18,12 @@ defineProps({
     type: Number,
     default: 0,
   },
-})
+});
+
+const colorMode = useColorMode();
+const patternFill = computed(() =>
+  colorMode.value === 'dark' ? 'rgba(255, 255, 255, 0.05)' : 'rgba(0, 0, 0, 0.05)'
+);
 </script>
 
 <template>
@@ -35,6 +42,7 @@ defineProps({
           :cx="size / 2"
           :cy="size / 2"
           :r="radius"
+          :fill="patternFill"
         />
       </pattern>
     </defs>
